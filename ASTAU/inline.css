@@ -1,0 +1,677 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive 'Courier New', Courier, monospace;
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    background-color: #232744;
+    color: #fff;
+    scroll-behavior: smooth;
+    margin: 0;
+   /* overflow-x: hidden;*/
+}
+
+main {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+} 
+
+::-webkit-scrollbar-thumb {
+    background-color: #fec600;
+    border: 0.063rem solid #1c1c1c;
+    border-radius: 0.313rem;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/background-top-a2.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem 4%;
+    margin-top: 0.313rem;
+    font-family: cursive;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 1rem;
+    margin: 0.625rem 1.875rem;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #fe8b17;
+}
+
+.nav ul li a:hover {
+    color: #e1a03e;
+}
+
+.logo {
+    width: 8.75rem;
+    height: 7.5rem;
+}
+
+.header-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+/*
+.header-image {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+} 
+*/
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    margin: 0.6rem;
+    color: #e1a03e;
+    color: #eb7a09;
+    color: #fe8b17;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header-text h1 {
+    margin-bottom: 1.875rem;
+    margin-left: 1.563rem;
+    font-size: 10rem;
+    padding-left: 0.5rem;
+}
+
+.header-text p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #f4e331;
+    color: #ffea04;
+    padding-left: 1.875rem;
+    margin-top: -1rem;
+}
+
+/* -------------  TAUAR  --------------- */
+
+section {
+    background-image: url(img/topo-blue1.png);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.tauar {
+    overflow-x: hidden;
+    font-size: 4rem;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    justify-content: center;
+    color: #fe8b17;
+    background-color: #232744;
+    border-radius: 3.125rem;
+    margin-top: 0.625rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1.4rem;
+    border:0.344rem solid #d5b664;
+    border-top:0;
+    border-right:0;
+    border-left:0;
+    border-bottom-left-radius: 2.438rem;
+    border-bottom-right-radius: 2.438rem;
+}
+
+.tauarlar {
+    font-size: 3.4rem;
+    width: 90%;
+    height: fit-content;
+    background-color: #232744;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0.625rem;
+    padding-bottom: 0.3em;
+    margin-top: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.85rem;
+    border: 0.344rem solid #d5b664;
+    border-top:0;
+    border-right:0;
+    border-left:0;
+    border-radius: 3.125rem;
+    color: #fe8b17;
+}
+
+.container-slide {
+    width: 54%; /* give a percent */
+    height: 600px;
+    background: #222;
+    background-color: beige;
+    background-color: #d5b664;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 50px;
+    box-shadow: 0 20px 20px 0px rgba(240, 120, 120, 0.19);
+}
+
+.swiper {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 28px;
+}
+
+.swiper-slide img {
+    width: inherit;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    image-rendering:pixelated;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.text {
+  color: #8c3d15;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.938rem;
+  position: absolute;
+  bottom: 0.5rem;
+  text-align: center; 
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(190, 180, 180, 0.4);
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+}
+
+.tapsiris {
+    display: block;
+    margin-top: 1.9rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    border: 0.188rem solid #d5b664;
+    padding: 0.7rem 2.2rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    background-color: rgb(255, 245, 183);
+    transition: 0.5s;
+}
+
+.tapsiris:hover{
+    background: #d5b664;   
+}
+
+.btn {
+    display: block;
+    margin: 2.4rem auto 0.7rem auto;
+    width: fit-content;
+    border: 0.188rem solid #d5b664;
+    padding: 0.62rem 1.85rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    background-color: rgb(255, 245, 183);
+    transition: 0.5s;
+}
+
+.toliq {
+    text-decoration: none;
+    color: #924900;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.btn:hover {
+    background: #d5b664;   
+}
+
+/*---------- Onimder ------------*/
+
+.onim {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.onim-turi {
+    display: flex;
+    flex-direction: column;
+    width: 23.438rem;
+    height: 26.563rem;
+    padding: 0.938rem;
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom:2.813rem;
+    font-size: 1.5rem;
+    background-color: #fe8c1a;
+    background-color: #f98f26;
+    border-radius: 0.625rem;
+    color: #000;
+    text-align: center;
+}
+
+.onim-turi img {
+    display: inline-block;
+    width: 3.75rem;
+    height: 2.625rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.938rem;
+}
+
+/*--------- Qoldanilatin Materialdar ------------*/
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3.48rem;
+    padding-left: 5.65rem;
+    padding-right: 5.65rem;
+    padding-bottom: 3.125rem;
+}
+
+.agash {
+    width: 55%;
+    height: auto;
+    margin-right: 3.125rem;
+    border-radius: 0.625rem;
+}
+
+.agash-jaili {
+    width: auto;
+    height: auto;
+    font-size: 1.4rem;
+    color: #000;
+    background-color: #d5b664;
+    padding: 1.25rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.625rem;
+}
+
+/*--------- Bailanis ----------*/
+
+.contact-head {
+  color: #fe8b17;
+  font-size: 2.375rem;
+  font-weight: 700;
+  width: 98%;
+  padding-top: 2%;
+  padding-left: 2%;
+  margin-top: 0.625rem;
+  bottom: 0.25rem;
+  text-align: start;
+  font-family: 'Poppins', sans-serif;
+  background-color: #161832;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 93%;
+    height: 3.125rem;
+    padding-bottom: 3.5%;
+    padding-top: 1.25rem;
+    padding-left: 7%;
+    background-color: #161832;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: #fe8b17;
+    border: 0.563rem solid #d5b664;
+    border-top:0;
+    border-right:0;
+    border-left:0;
+    align-items: center;
+}
+
+.contact a {
+    font-size: 1.8rem;
+    color: #fe8b17;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 750;
+}
+
+.social-medias a  {
+    text-decoration: none;
+    font-size: 50px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.fa-instagram {
+    color: rgb(187, 2, 187);
+    margin-right: 2.375rem;
+}
+.fa-facebook {
+    color: rgb(42, 42, 230);
+    margin-right: 2.375rem;
+}
+.fa-whatsapp {
+    color: rgb(0, 164, 0);
+}
+
+.social-medias a:hover {
+    transform: translateY(-5px);
+}
+
+.fa-instagram:hover {
+    transform: translateY(-5px);
+    color: rgb(214, 98, 214);
+}
+.fa-facebook:hover {
+    transform: translateY(-5px);
+    color: rgb(92, 92, 225);
+}
+.fa-whatsapp:hover {
+    transform: translateY(-5px);
+    color: rgb(90, 202, 90);
+}
+
+
+@media all and (max-width: 800px) {
+    
+    *{
+        outline: 1px solid red;
+    } 
+
+    html {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        width: fit-content;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    
+    ::-webkit-scrollbar {
+    width: 0;
+    } 
+    ::-webkit-scrollbar-thumb {
+    border: 0;
+    border-radius: 0;
+    }
+
+/*-------- HEADER --------*/
+    #header {
+        overflow-x: hidden;
+        background-image: url(img/background-top-a2.jpg);
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .nav {
+        padding: 0.6rem 2%;
+        margin-top: 0.313rem;
+        font-family: cursive;
+    }
+    .nav ul {
+        padding-left: 4%;
+    }
+    .nav ul li {
+        padding: 0.5rem;
+        margin: 0.3rem 0.5rem;
+    }   
+    .nav ul li a {
+        font-size: 0.8rem;
+    }
+    .logo {
+        width: 4rem;
+        height: 3.5rem;
+    }
+
+    .header-main {
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;   
+    }
+    .header-text {
+        display: flex;
+        justify-content: center;
+        padding-top: 45%;
+        margin:2%;
+    }
+    .header-text h1 {
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 1.875rem;
+        font-size: 3.4rem;
+    }
+    .header-text p {
+        justify-content: center;
+        font-size: 1rem;
+        padding: 0;
+        padding-left: 0.5rem;
+        margin: 0;
+        margin-top: -1rem;
+        align-items: start;
+    }
+
+/*------ TAUARLAR ------*/    
+    section {
+        width: 100vw;
+        margin: 0;
+    }
+    .tauar {
+        font-size: 1.8rem;
+        width: 100%;
+        height: fit-content;
+        border-radius: 3.125rem;
+        margin-top: 0.625rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border:0.344rem solid #d5b664;
+        border-top:0;
+        border-right:0;
+        border-left:0;
+        border-bottom-left-radius: 2.438rem;
+        border-bottom-right-radius: 2.438rem;
+    }
+    .tauarlar {
+        font-size: 1.7rem;
+        width: 90%;
+        height: fit-content;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.344rem solid #d5b664;
+        border-top:0;
+        border-right:0;
+        border-left:0;
+        border-radius: 2rem;
+    }
+
+    .container-slide {
+        width: 400px;
+        height: 365px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.5rem;
+        border-radius: 40px;
+        box-shadow: 0 10px 20px 0px rgba(240, 120, 120, 0.19), 0 13px 13px 0 rgba(240, 120, 120, 0.19);
+    }
+    .swiper {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 28px;
+    }
+    .swiper-slide img {
+        width: 400px;
+        width: 100%;
+        height: 335px;
+        image-rendering:pixelated;
+        image-orientation: from-image;
+        image-resolution:initial;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text {
+      font-size: 1.2rem;
+    }
+
+    .tapsiris {
+        margin: 1.25rem auto;
+        width: fit-content;
+        border: 0.188rem solid #d5b664;
+        padding: 0.4rem 1rem;
+        border-radius: 0.4rem;
+    }
+    .btn {
+        margin: 1.125rem auto 0.938rem auto;
+        width: fit-content;
+        border: 0.188rem solid #d5b664;
+        padding: 0.4rem 1rem;
+        border-radius: 0.4rem;
+    }
+    .toliq {
+        font-size: 1rem;
+    }
+
+/*----- ONIM -----*/
+    .onim-turi {
+        width: 11rem;
+        height: 13rem;
+        padding: 0.4rem;
+        margin-top: 2rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom:2rem;
+        font-size: 0.8rem;
+    }
+    .onim-turi img {
+        width: 1.8rem;
+        height: 1.5rem;
+        margin-bottom: 0.8rem;
+    }
+
+/*------ QOLDANILATIN MATERIALDAR ------*/
+   .info {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-bottom: 1rem;
+    }
+    .agash {
+    width: 56%;
+    height: auto;
+    margin-right: 0.6rem;
+    border-radius: 0.3rem;
+    object-fit: cover;
+    object-position: 25% 25%; 
+    }
+    .agash-jaili {
+    width: 44%;
+    height: auto;
+    font-size: 0.6rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    }
+
+/*------ BAILANIS ------*/
+    .contact-head {
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin-top: 0.4rem;
+    bottom: 0.1rem;
+    }
+   .contact {
+      width: 100%;
+      height: 3.125rem;
+      padding-bottom: 2%;
+      padding-top: 0.4rem;
+      padding-left: 3%;
+      padding: 0.8%;
+      font-size: 0.6rem;
+      border: 0.563rem solid #d5b664;
+      border-top:0;
+      border-right:0;
+      border-left:0; 
+    }  
+    .contact a {
+        font-size: 0.8rem;
+        font-weight: 750;
+    }    
+    .social-medias a {
+      font-size: 27px; 
+    } 
+    .fa-instagram {
+      margin-right: 0.6rem; 
+    }
+    .fa-facebook {
+      margin-right: 0.6rem; 
+    }  
+}
